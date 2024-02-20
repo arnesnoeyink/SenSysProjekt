@@ -1,4 +1,4 @@
-![color_mapped_image](https://github.com/arnesnoeyink/SenSysProjekt/assets/61993557/522521dd-74c3-4766-b5e7-3363ff22316a)# Sensorsysteme Projektarbeit
+# Sensorsysteme Projektarbeit
 Dieses Projekt dient als elektronischer Anhang zur Projektarbeit im Modul Sensorsysteme.
 # Time of flight Kamera
 Für die Time of flight Kamera befindet sich der genutzte Code im Verzeichnis `tof/code`. Die Daten der Testreihe 1 und 2 befinden sich im Verzeichnis `tof/data`. Zusätzlich befinden sich Test Daten im Verzeichnis `tof/data`. Die Ergebnisse sind im Verzeichnis `tof/results` zu finden.
@@ -32,6 +32,8 @@ Die Ergebnisse werden automatisch im Ordner `tof/results/testreihe_*` abgespeich
 
 # NDVI Kamera 
 Für die NDVI Kamera befindet sich der erstellte Code im Verzeichnis `NDVI/PythonCode`. Die Daten der Testreihe 1 und 2 befinden sich im Verzeichnis `NDVI/Data`. Die Ergebnisse befinden im Verzeichnis `NDVI/Results`.
+
+![color_mapped_image](https://github.com/arnesnoeyink/SenSysProjekt/assets/61993557/522521dd-74c3-4766-b5e7-3363ff22316a)
 
 ## Code
 Die Python Datei `main.py` kann auf jedem Raspberry Pi oder Computer ausgeführt werden um Aufnahmen einer NIR fähigen Kamera umzuwandeln.
