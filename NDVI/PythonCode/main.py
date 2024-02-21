@@ -6,7 +6,8 @@ from fastiecm import fastiecm
 import os
 
 # Verzeichnis mit den Bildern
-image_directory = r"C:\Users\Krause\OneDrive\Dokumente\Sensorsysteme\Bilder_zweiterLauf"  # Passe den Pfad zum Verzeichnis an
+image_directory = "NDVI/Data/Bilder_ersterLauf"
+#image_directory = "NDVI/Data/Bilder_zweiterLauf"
 
 # Ausgabedatei für die Werte
 output_file = 'bild_werte.txt'  # Dateiname für die Ausgabedatei
