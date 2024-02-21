@@ -33,6 +33,16 @@ Die Ergebnisse werden automatisch im Ordner `tof/results/testreihe_*` abgespeich
 # NDVI Kamera 
 Für die NDVI Kamera befindet sich der erstellte Code im Verzeichnis `NDVI/PythonCode`. Die Daten der Testreihe 1 und 2 befinden sich im Verzeichnis `NDVI/Data`. Die Ergebnisse befinden im Verzeichnis `NDVI/Results`.
 
+```
+python3 NDVI/PythonCode/main.py
+```
+
+Der Python Code `leaf_growth.py` ruft über die Funktion `bilddateien_auslesen` alle Bilder aus dem zugehörigen Ordner. Speichert diese dann unter `alle_Bilder` und verarbeitet diese im Folgenden mit der `colorcounter` Funktion. Diese Funktion enthält ein Objekt `ranges` mit den RGB-Farbwerten und Zählt die Pixel eines Farbwert für das Bild aus. Im Nachhinein wird hieraus der Prozentwert gebildet und die Daten werden in eine CSV-Datei abgespeichert.
+
+```
+python3 NDVI/PythonCode/leaf_growth.py
+```
+
 ## Code
 Die Python Datei `main.py` kann auf jedem Raspberry Pi oder Computer ausgeführt werden um Aufnahmen einer NIR fähigen Kamera umzuwandeln.
 Dazu muss innerhalb der `main.py` in Zeile 9 ein Bildordner ausgewählt werden. Die dort enthaltenen Bilder werden dann auf das NIR Spektrum untersucht. 
