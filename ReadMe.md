@@ -33,8 +33,6 @@ Die Ergebnisse werden automatisch im Ordner `tof/results/testreihe_*` abgespeich
 # NDVI Kamera 
 Für die NDVI Kamera befindet sich der erstellte Code im Verzeichnis `NDVI/PythonCode`. Die Daten der Testreihe 1 und 2 befinden sich im Verzeichnis `NDVI/Data`. Die Ergebnisse befinden im Verzeichnis `NDVI/Results`.
 
-![color_mapped_image](https://github.com/arnesnoeyink/SenSysProjekt/assets/61993557/522521dd-74c3-4766-b5e7-3363ff22316a)
-
 ## Code
 Die Python Datei `main.py` kann auf jedem Raspberry Pi oder Computer ausgeführt werden um Aufnahmen einer NIR fähigen Kamera umzuwandeln.
 Dazu muss innerhalb der `main.py` in Zeile 9 ein Bildordner ausgewählt werden. Die dort enthaltenen Bilder werden dann auf das NIR Spektrum untersucht. 
